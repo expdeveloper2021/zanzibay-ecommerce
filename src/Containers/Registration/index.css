@@ -1,0 +1,55 @@
+.checkboxform {
+    position: relative;
+    display: flex;
+    flex-direction: row !important;
+    align-items: center;
+}
+
+.checkboxform label {
+    position: relative;
+    margin-bottom: 0px !important;
+    margin-left: 10px;
+}
+
+/* .checkboxform label::before {
+    width: 20px;
+    height: 20px;
+    content: " ";
+    left: 0px;
+    position: absolute;
+    border: 1px solid black;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.checkboxform label::after {
+    width: 15px;
+    height: 15px;
+    content: " ";
+    left: 3px;
+    position: absolute;
+    background-color: black;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 0;
+}
+
+.checkboxform input:checked~label::after {
+    opacity: 1;
+} */
+
+/* .checkboxform input {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 999999;
+    opacity: 0;
+} */
+
+.checkboxform a {
+    z-index: 999999999;
+}

@@ -1,0 +1,15 @@
+.product-images-to-render img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    object-position: center;
+    margin: 0px 10px;
+}
+
+.product-images-to-render {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 20px 0px;
+    margin-bottom: 50px;
+}

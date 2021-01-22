@@ -1,0 +1,323 @@
+.product-detail-wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 40px;
+}
+
+.product-list-top {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.product-image-lt {
+    width: 60%;
+    height: 100%;
+    /* border: 1px solid red; */
+    padding-right: 40px;
+}
+
+.product-content-lt {
+    width: 40%;
+    height: 100%;
+    padding-left: 20px;
+}
+
+.gray-updation {
+    color: gray;
+    font-size: 13px;
+}
+
+.product-content-lt p {
+    margin-bottom: 5px;
+}
+
+.blue-title {
+    color: blue;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.normal-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.normal-price {
+    font-weight: 600;
+    font-optical-sizing: 16px;
+}
+
+.buy-buttons {
+    width: 100%;
+    display: flex;
+    margin: 20px 0px;
+}
+
+.buy-buttons button {
+    flex-grow: 1;
+    margin: 0px 5px;
+    font-size: 13px;
+    padding: 10px;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #f68e29;
+}
+
+.addtocart-buttons {
+    width: 100%;
+}
+
+.addtocart-buttons button {
+    flex-grow: 1;
+    margin: 0px 5px;
+    font-size: 13px;
+    padding: 10px;
+    color: blue;
+    border: 2px solid blue;
+    outline: none;
+    border-radius: 4px;
+    background-color: transparent;
+    width: 100%;
+}
+
+.special-boost {
+    width: 100%;
+    padding: 20px 0px;
+    border-bottom: 1px solid black;
+}
+
+.title-sb-pdw {
+    font-weight: 600;
+}
+
+.desc-sb-pdw {
+    font-size: 13px;
+}
+
+.item-details {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.title-id-pdw {
+    font-weight: 600;
+    margin-bottom: 20px !important;
+}
+
+.id-detailed {
+    width: 100%;
+    display: flex;
+    margin: 3px 0px;
+}
+
+.tid-detailed {
+    width: 25%;
+}
+
+.tid-detailed p {
+    color: gray;
+}
+
+.did-detailed {
+    flex-grow: 1;
+    max-width: 75%;
+}
+
+.id-detailed p {
+    font-size: 13px;
+}
+
+.image-holder-pil {
+    height: 400px;
+    margin-bottom: 40px;
+}
+
+.seller-information {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.content-si-first {
+    display: flex;
+    align-items: center;
+}
+
+.title-si {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.content-si-first img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.content-si-first div {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.content-si-first div p {
+    margin-bottom: 5px;
+}
+
+.content-si-first div p:first-child {
+    font-weight: 600;
+}
+
+.content-si-first div p:last-child {
+    font-size: 14px;
+}
+
+.content-si-first button {
+    border: 2px solid blue;
+    color: blue;
+    padding: 7px 15px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.content-si-second {
+    display: flex;
+    width: 100%;
+    margin: 20px 0px;
+    margin-top: 40px;
+}
+
+.icon-space {
+    width: 80px;
+    height: 60px;
+    background-color: black;
+    margin-right: 20px;
+}
+
+.content-si-second div p:first-child {
+    font-weight: 600;
+    margin-bottom: 6px;
+    font-size: 18px;
+}
+
+.content-si-second div p:last-child {
+    font-size: 13px;
+}
+
+.chat-wrapper {
+    width: 300px;
+    height: 400px;
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    background-color: white;
+}
+
+.seller-info-cw {
+    width: 100%;
+    border-bottom: 1px solid #ded3d3;
+    display: flex;
+    align-items: center;
+}
+
+.seller-info-cw img {
+    width: 60px;
+    height: 60px;
+}
+
+.seller-contact-siw {
+    flex-grow: 1;
+    padding-left: 10px;
+}
+
+.seller-contact-siw p {
+    margin-bottom: 5px;
+    font-size: 13px;
+}
+
+.seller-contact-siw p:first-child {
+    color: blue;
+    font-weight: 600;
+    font-size: 15px !important;
+    margin-bottom: 1px !important;
+}
+
+.seller-info-cw .MuiSvgIcon-root {
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.bottom-cw {
+    width: 100%;
+    background-color: rgb(211, 204, 204);
+    position: fixed;
+    bottom: 0px;
+    overflow: hidden;
+}
+
+.bottom-cw input {
+    width: 100%;
+    max-width: 300px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    padding: 8px 12px;
+    padding-right: 90px;
+    font-size: 13px;
+}
+
+.bottom-cw button {
+    position: fixed;
+    right: 5px;
+    bottom: 1px;
+    border: none;
+    outline: none;
+    font-size: 13px;
+    bottom: 5px;
+    background-color: blue;
+    color: white;
+    padding: 3px 14px;
+    border-radius: 2px;
+}
+
+.content-cw {
+    width: 100%;
+    max-height: 60%;
+}
+
+.inner-ccw {
+    width: 100%;
+    display: flex;
+    margin: 10px 0px;
+    padding: 0px 10px;
+}
+
+.inner-ccw.minechat {
+    justify-content: flex-end;
+}
+
+.chat-box {
+    padding: 5px 10px;
+    border-radius: 4px;
+    max-width: 150px;
+    background-color: blue;
+}
+
+.inner-ccw.minechat .chat-box {
+    background-color: rgb(180, 174, 174);
+}
+
+.chat-box p {
+    font-size: 13px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+.image-holder-pil img {
+    width: 100%;
+    height: 100%;
+}
